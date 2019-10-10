@@ -1,5 +1,5 @@
 # To generate the key for box64-1, for cpu-001, apcpu-006 and gup-002:
-1. follow: https://www.ssh.com/ssh/keygen/ to understand 'SSH KEY'
+1. follow: [GENERATE A NEW SSH KEY](https://www.ssh.com/ssh/keygen/) to understand 'SSH KEY'
 2_1. generate key for box64-1
 * hean@linux-hau6:~> cd .ssh
 * hean@linux-hau6:~/.ssh> ls
