@@ -1,10 +1,10 @@
 # To generate the key for box64-1, for cpu-001, apcpu-006 and gup-002:
-1. follow: [GENERATE A NEW SSH KEY](https://www.ssh.com/ssh/keygen/) to understand 'SSH KEY'
+1. follow: https://www.ssh.com/ssh/keygen/ to understand 'SSH KEY'
 2_1. generate key for box64-1
 * hean@linux-hau6:~> cd .ssh
 * hean@linux-hau6:~/.ssh> ls
 known_hosts
-hean@linux-hau6:~/.ssh> ssh-keygen
+** hean@linux-hau6:~/.ssh> ssh-keygen **
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/hean/.ssh/id_rsa): 
 Enter passphrase (empty for no passphrase): 
@@ -25,5 +25,5 @@ The key's randomart image is:
 |oo.= o.o.== oB . |
 |oo**B o*X=.o+.+.E|
 +----[SHA256]-----+
-hean@linux-hau6:~/.ssh> ls -a
+* hean@linux-hau6:~/.ssh> ls -a
 .  ..  id_rsa  id_rsa.pub  known_hosts
